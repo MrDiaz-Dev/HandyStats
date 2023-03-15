@@ -17,10 +17,9 @@ function App() {
         <Route path='/' element={ <FrontPage /> } />
         <Route path='login' element={ <LogIn /> }/>
         <Route path='singin' element={ <SingIn /> }/>
-        <Route path='dashboard' element={ <Dashboard /> }/>
+        <Route path='dashboard/:email' element={ <Dashboard /> }/>
       </Routes>
     </BrowserRouter>
-
   )
 }
 
